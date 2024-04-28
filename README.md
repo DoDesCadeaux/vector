@@ -24,13 +24,20 @@ Here's a quick example on how to use the library:
 ```python
 from vector import Vector
 
-# Create two vectors
+# Create two column vectors
 v1 = Vector([[1], [2], [3]])
 v2 = Vector([[4], [5], [6]])
 
+# Create two row vectors
+v3 = Vector([[5.0, 6.0, 7.0]])
+v4 = Vector([[10.0, 13.0, 19.0]]) * 2
+
 # Add the vectors
-v3 = v1 + v2
-print(v3)
+v5 = v1 + v2
+print(v5)
+
+Show vector product
+print(v4)
 ```
 
 ## Contributing
