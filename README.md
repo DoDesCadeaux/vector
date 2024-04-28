@@ -36,7 +36,7 @@ v4 = Vector([[10.0, 13.0, 19.0]]) * 2
 v5 = v1 + v2
 print(v5)
 
-Show vector product
+# Show vector product
 print(v4)
 ```
 
