@@ -2,7 +2,6 @@ class Vector:
     def __init__(self, value):
         if not all(len(row) == 1 or len(value) == 1 for row in value):
             raise ValueError("All rows must be size of 1")
-
         self.value = value
         if all(len(elem) == 1 for elem in value):
             self.shape = (len(value), 1)
