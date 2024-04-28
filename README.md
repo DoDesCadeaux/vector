@@ -35,9 +35,13 @@ v4 = Vector([[10.0, 13.0, 19.0]]) * 2
 # Add the vectors
 v5 = v1 + v2
 print(v5)
+# Output
+# Vector([[5], [7], [9]]) of shape (3, 1)
 
 # Show vector product
 print(v4)
+# Output
+# Vector([[20.0, 26.0, 38.0]]) of shape (1, 3)
 ```
 
 ## Contributing
